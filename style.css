@@ -8,7 +8,7 @@
 
 body{
     font-family: "Outfit", sans-serif;
-    font-weight: 400, 700;
+    
     font-size: 15px;
     background: hsl(212, 45%, 89%);
     display: flex;
@@ -20,54 +20,68 @@ body{
 }
 
 .card{
-    min-height: 600px;
-    width: 350px;
+    width: 320px;
+    height: 499px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     background: hsl(0, 0%, 100%);
-    border-radius: 25px;
+    box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+
     
 }
 
+
 img{
-    width: 320px;
-    border-radius: 30px;
-    margin: 20px auto;
+    width: 288px;
+    height: 288px;
+    background: #2C7DFA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 16px;
 }
 
 .info{
-    margin: 20px 20px;
-    text-align: center;
+    height: 131px;
+    width: 288px;
+    margin: 8px;
+    
     
 }
 h3{
-    font-size: 25px;
+    text-align: center;
+    font-family: 'Outfit';
+    font-style: normal;
     font-weight: 700;
-    margin-bottom: 20px;
+    font-size: 22px;
+    line-height: 120%;
+    
 }
 
 p{
-    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    margin: 16px;
+    text-align: center;
+    font-weight: 400;
     color: hsl(216, 15%, 48%)
 }
-
 
 
 footer{
     position: absolute;
     bottom: 0;
-    font-size: xx-large;
-    font-weight: 700;
+    font-size: 24px;
 
 }
 
-@media screen and ( width < 800px ) { 
-    footer{
-        position: absolute;
-        bottom: 0;
-        font-size: 15px;
-        font-weight: 400;
-    
-    }
-}
+
+
+
+
