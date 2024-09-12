@@ -61,3 +61,13 @@ footer{
     font-weight: 700;
 
 }
+
+@media screen and ( width < 800px ) { 
+    footer{
+        position: absolute;
+        bottom: 0;
+        font-size: 15px;
+        font-weight: 400;
+    
+    }
+}
